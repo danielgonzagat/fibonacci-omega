@@ -1,9 +1,8 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
+*.so
 .Python
 build/
 develop-eggs/
@@ -20,3 +19,51 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+*.tar.gz
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+fibonacci_engine/persistence/*.json
+!fibonacci_engine/persistence/.gitkeep
+fibonacci_engine/reports/*.md
+!fibonacci_engine/reports/.gitkeep
+snapshots/
+*.pkl
+*.pth
+*.h5
+
+# Temporary files
+*.tmp
+*.bak
+*~
